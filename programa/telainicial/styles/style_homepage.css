@@ -174,8 +174,7 @@ main{
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-    margin-left:0.5vw;
+    width: 88vw;
     border-color: black;
     border-width: 2vw;
     border-style: solid;
@@ -247,14 +246,81 @@ main{
 }
 /*FORMULARIO*/
 
+.retangulodepoimento{
+    margin-left: 1vw;
+    border-color: var(--azul);
+    border-width: 0.5vw;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 5vw;
+}
+
+.imgpessoa{
+    border-radius: 50%;
+    width: 15vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
+}
+
+.racheldepoimento{
+    margin-top:
+    width: 25%;
+    display: flex;
+}
+
+.titulodepoimento{    
+    text-align:center;
+    font-family: Courier, monospace;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    color: white;
+}
+
+.nomedepoimento{
+    background-color: var(--azulclaro);
+    border-radius: 20px;
+}
+
+.nomedepoimento{
+    color: black;
+    text-align:center;
+    font-family: Courier, monospace;
+    font-size: 2vw;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 2vw;
+}
+
+.depoimento{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.textodepoimento{
+    font-family: Courier, monospace;
+    font-style: italic;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    line-height: 1.5em;
+    width: 85%;
+    text-indent: 5vw;
+}
 
     /*RODAPE*/
 
+
+    
   .rodape {
-        background-color: var(--azul);
+        border-color: #144A86;
         color: var(--azul);
         padding: 20px;
         text-align: center;
         margin-top: 50px;
         width: 100%;
     }
+
