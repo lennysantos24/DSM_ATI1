@@ -264,7 +264,6 @@ main{
 }
 
 .racheldepoimento{
-    margin-top:
     width: 25%;
     display: flex;
 }
@@ -311,9 +310,35 @@ main{
     text-indent: 5vw;
 }
 
+/*FORMULARIO*/
+
+.formulario{
+    margin-top: 7vw;
+    background-color: #000000;
+    color: white;
+    font-family: Courier, monospace;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+#formdesc{
+    color:white;
+    font-family: Courier, monospace;
+    text-align: center;
+    margin-bottom: 4vw;
+    font-size: 3vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.formularioajustes{
+    color:white;
+    font-family: Courier, monospace;
+    font-size: 2vw;
+    text-align: center;
+}
+
     /*RODAPE*/
-
-
     
   .rodape {
         border-color: #144A86;
