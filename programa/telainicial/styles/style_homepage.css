@@ -153,12 +153,14 @@ main{
 .retangulo{
     background-color: var(--azul);
     margin-left: 1vw;
-    border-color: rgb(20, 21, 23);
+    border-color: var(--azul);
     border-width: 1vw;
     border-style: solid;
+    border-radius: 20px;
+    margin-top: 5vw;
 }
 
-.ofertas{
+.oferta{
     font-family: Courier, monospace;
     font-weight: bold;
     color: white;
@@ -167,7 +169,82 @@ main{
    margin-top: 1vw;
 }
 
+.divprodutos{
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left:0.5vw;
+    border-color: black;
+    border-width: 2vw;
+    border-style: solid;
+}
 
+.ofertadia{
+    width: 25%;
+    background-color:white;
+    height: 35vw;
+    border-radius: 10px;
+    text-align:center;
+    font-family: Courier, monospace;
+}
+
+.imgoferta{
+    border-radius: 10px;
+    width: 15vw;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.produto{
+    width: 40%;
+    background-color:white;
+    height: 35vw;
+    border-radius: 10px;
+    text-align:center;
+    font-family: Courier, monospace;
+    margin-left: 1vw;
+    margin-top: -2vw
+    
+}
+
+.outrasofertas{
+    height: 35vw;
+    display:flex;
+    margin-left: 10vw;
+    border-color: black;
+    border-width: 2vw;
+    border-style: solid;
+}
+
+.titulooferta{
+    text-align:center;
+    font-family: Courier, monospace;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+
+}
+
+.descricao{
+    text-align:center;
+    font-family: Courier, monospace;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.preco{
+    margin-top: 1vw;
+    color:#D2021A;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 2vw;
+}
 /*FORMULARIO*/
 
 
