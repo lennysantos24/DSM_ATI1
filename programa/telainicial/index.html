@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url(/programa/telainicial/styles/style_homepage.css);
+    </style>
+    <title>LIFE IS STRANGE</title>
+</head>
+<body> 
+
+    <!--CABEÇALHO-->
+    <header>
+        <div id="fixo">
+        <div class="flex-container-menu">
+            <div id="logo"><img id="logo"src="/programa/telainicial/imagens/borboleta_novo.png"></div>
+            <div><div onclick="aparecerTexto();" onmouseleave="reset();" id="div"></div></div>
+        </div>
+        </div>
+
+        <div id="cabecalho">
+            <div id="nome">
+            <img id="titulo" src="/programa/telainicial/imagens/titulo-removebg-preview.png">
+         </div>
+        </div>
+    </header>
+
+    <!--MAIN-->
+
+    <main>
+        <div class="flex-container-desc">
+            <div><img id="borboleta" src="/programa/telainicial/imagens/borboleta.fig.gif"></div>
+            <div><h2 id="TAWHC"></h2></div>
+        </div>
+
+
+
+    <div class="jogos">
+        <div class="jogo_item"><h2>JOGOS:</h2></div>
+        <div class="titulo_jogo"></div>
+        <div class="borda_jogo">
+            <div class="titulo_jogo"><h3>LIFE IS STRANGE</h3></div>
+            <div class="forma_jogo">
+                <div class="img_jogo"><img class="redondo_capa_img" src="/programa/telainicial/imagens/original.jpg"></div>
+                    <div class="sinopse"><p class="sinopse">Siga a história de Max Caulfield, uma estudante de fotografia que descobre ser capaz de rebobinar o tempo ao salvar a melhor amiga, Chloe Price. As duas logo começam a investigar o desaparecimento misterioso da amiga e também estudante Rachel Amber, e desvendam o lado sombrio da vida em Arcadia Bay. Ao mesmo tempo, Max aprende rápido que alterar o passado pode por vezes levar a um futuro devastador</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="borda_jogo">
+            <div class="titulo_jogo"><H3>LIFE IS STRANGE: BEFORE THE STORM</H3></div>
+            <div class="forma_jogo">
+                <div class="img_jogo"><img class="redondo_capa_img" src="/programa/telainicial/imagens/before_storm.jpg"></div>
+                <div class="sinopse"><p class="sinopse">Chloe Price, uma rebelde de 16 anos que faz uma amizade inesperada com Rachel Amber, uma garota bonita e popular destinada ao sucesso. <br>Quando o mundo de Rachel é virado do avesso por um segredo de família, é sua nova aliada que dá força às duas para enfrentarem seus demônios.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--PRODUTOS-->
+
+    <div class="retangulo">
+    <div class="oferta"> OFERTAS:</div>
+    <div class="divprodutos">
+        <div class="ofertadia">
+            <div class="produto1">
+            <div class="titulooferta">Camera</div>
+            <div><img class="imgoferta"src="/programa/telainicial/imagens/camera.jpg"></div>
+            <div class="descricao">Camera analogica 2D</div>
+            <div class="preco">R$100,99</div>
+        </div>
+        </div>
+
+        <div class="outrasofertas">
+            <div class="produto">
+                <div class="titulooferta">Isqueiro</div>
+                <div><img class="imgoferta" src="/programa/telainicial/imagens/isqueiro.jpg"></div>
+                <div class="descricao">Isqueiro de fogo falso</div>
+                <div class="preco">R$13,99</div>
+            </div>
+            <div class="produto">
+                <div class="titulooferta">Fita</div>
+                <div><img class="imgoferta"src="/programa/telainicial/imagens//fita.jpg"></div>
+                <div class="descricao">Fita com musicas do jogo</div>
+                <div class="preco">R$38,99</div>
+            </div>
+            <div class="produto">
+                <div class="titulooferta">Cartaz</div>
+                <div><img class="imgoferta" src="/programa/telainicial/imagens/cartas.jpg"></div>
+                <div class="descricao">Cartas de desaparecida</div>
+                <div class="preco">R$5,99</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--DEPOIMENTOS-->
+
+    
+    <div class="retangulodepoimento">
+        <div class="bordadepoimento">
+        <div class="titulodepoimento"> DEPOIMENTO: </div>
+        <div class="depoimento">
+            <div id="rachelmeio"><img class="imgpessoa" src="/programa/telainicial/imagens/rachel.jpg"></div>
+            <div class="depoimentodescricao">
+                <div class="nomedepoimento">RACHEL DAWN AMBER</div>
+                <div class="textodepoimento">Ja comprei e vendi diversos itens que estão presentes na loja atualmente, antes do meu desaparecimento. Recomendo fortemente a loja. </div>
+                <div class="data">Sao Paulo, 27 de abril de 2024</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </main>
+
+    <script type="text/javascript" src="/programa/telainicial/interacao/teste.js"></script>
+ 
+    <div class="formulario">
+        <h2 id="formdesc">Caso se interessa em algum item citado acima, preencha o formulario para entrarmos em contato com voce: </h2>
+
+     <div class="formularioajustes"  >
+    <form action="/processar-formulario" method="post">
+
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="idade">Idade: </label>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="email">Email de contato: </label>
+        <input type="email" id="email" name="name" required><br><br>
+
+        <label for="sexo">Sexo: </label>
+        <input type="radio" id="sexo-masculino" name="sexo" value="masculino">Masculino
+        <input type="radio" id="sexo-feminino" name="sexo" value="feminino">Feminino
+        <input type="radio" id="sexo-outro" name="sexo" value="outro">Outro<br><br>
+
+
+        <label for="compra">Objeto que deseja comprar: </label>
+        <select id="compra" name="compra" multiple>
+            <option value="Camera">Camera</option>
+            <option value="Isqueiro">Isqueiro</option>
+            <option value="Fita">Fita</option>
+            <option value="Cartaz">Cartaz</option>
+        </select><br><br>
+
+        <input type="submit" class="botao" value="Enviar">
+
+    </div> 
+    </div>
+
+ <!--RODAPE-->
+ 
+ <footer class="rodape">
+	<p>&copy; 2024 - Todos os direitos reservados</p>
+</footer>
+
+</body>
