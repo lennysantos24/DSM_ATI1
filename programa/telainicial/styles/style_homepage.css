@@ -102,6 +102,7 @@ main{
     border-color: rgb(20, 21, 23);
     border-width: 1vw;
     border-style: solid;
+    border-radius: 20px;
 
 }
 
@@ -339,13 +340,16 @@ main{
 }
 
     /*RODAPE*/
-    
+
   .rodape {
         border-color: #144A86;
-        color: var(--azul);
+        background-color: var(--azul);
         padding: 20px;
         text-align: center;
         margin-top: 50px;
         width: 100%;
+        font-weight: bold;
+        font-size: 2vw;
+        
     }
 
